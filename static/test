@@ -1,0 +1,48 @@
+#bg{
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0rem;
+    padding: 0rem 0.2rem;
+    background-color: #29292f;
+}
+
+#content-body{
+    width:800px;
+    height:500px;
+    margin:0 auto;
+    vertical-align:middle;
+    text-align:center;
+    position: relative;
+}
+#allmap {
+	top:20px;
+	left:20px;
+    height: 60%;
+    width: 80%;
+    overflow: hidden;
+}
+#predict-info,#recommend,#predict_result,#price_distribute,#district_price,#size_price,#layout_price,#renovation_price{
+    width:800px;
+    height:500px;
+    margin:80px auto;
+    border:0.008rem solid rgba(14,253,255,0.5);
+	position:relative;
+	padding:0.08rem 0.05rem;
+}
+select{
+    width:110px;
+    padding:5px;
+    border-radius: 5px;
+}
+
+#title{
+    width:200px;
+    height:40px;
+    display:inline-block;
+    font-weight:bold;
+    color:rgba(14,253,255,1);
+    font-size:20px;
+}
